@@ -1,0 +1,29 @@
+<!doctype html>
+
+<html lang="en">
+
+    <head>
+            <meta charset="utf8">
+
+        </head>
+
+    <body>
+            <div id="Box">
+
+                <div id="file-area">
+
+                    <form action="/upload" method="post" enctype="multipart/form-data">
+                        <input type="file" name="fileToUpload" id="fileToUpload"> <br/>
+                        <input type="submit" value="Upload File" name="submit">
+                      </form>
+                </div>
+                <?php
+                if(isset($_POST['userinput'])) {
+                    /* do sth with the data */
+                }
+                ?>
+
+            </div>
+        </body>
+
+</html>
